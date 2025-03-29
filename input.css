@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-table {
-  border: groove;
-  border-color: red;
-  vertical-align: top;
-}
-
 .table-div {
   width: 350px;
   display: inline-block;
@@ -64,8 +58,6 @@ table {
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* Padding nie usztywnia guzika, lepsze alternatywa dla width i height,
-  jego rozmiar modyfikuje sie w zależnosci od wpisywanego tekstu. */
   vertical-align: top;
   display: inline-block;
 }
@@ -119,4 +111,4 @@ table caption {
   border-radius: 3px;
   font-size: 17;
   font-family: Arial;
-}/*# sourceMappingURL=test.css.map */
+}
